@@ -27,9 +27,9 @@ class User_model extends CI_Model{
         return;
     }
 
-    public function deleteUser($userId){
+    public function deleteUser($userId){    
         $this->db->where('user_id',$userId);
         $this->db->delete('users');
-        return;
+            return;
     }
 }
