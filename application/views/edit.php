@@ -44,7 +44,7 @@
                         <div class="mb-3">
                             <label for="inputName" class="form-label">Name</label>
                             <input type="text" name="username" class="form-control" id="inputName" value="<?php echo set_value('username',$user['user_name']) ?>" aria-describedby="nameHelp">
-                            <span style="color:red;"><?php echo form_error('username'); ?></span>
+                            <span style="color:blue;"><?php echo form_error('username'); ?></span>
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Email address</label>
